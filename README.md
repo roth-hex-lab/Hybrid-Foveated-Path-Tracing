@@ -9,7 +9,35 @@ There are three main components to this project:
 
 __IMPORTANT:__ *This repository is for reference*. It is not in a state that can be easily run. The components in the subfolders ship with adapted code, and mostly their original readme, which can be somewhat misleading and misrepresent what the code does. You will need to check out what each part does and adapt to your needs. 
 
-## Paper abstract
+## Paper
+
+**Authors:** Constantin Kleinbeck<sup>1, 2, 3, 4</sup>, Luisa Theelke<sup>1, 2, 3, 4</sup>, Hannah Schieber<sup>1, 2, 3, 4</sup>, Ulrich Eck<sup>1</sup>, Rüdiger von Eisenhart-Rothe<sup>1, 2, 4</sup>, Daniel Roth<sup>1, 2, 3, 4</sup>
+
+1 Technical University of Munich (TUM), Germany
+2 TUM University Hospital, Orthopedics and Sports Orthopedics
+3 Human-Centered Computing and Extended Reality Lab (HEX)
+4 Munich Institute of Robotics and Machine Intelligence (MIRMI)
+
+Find the paper here: https://arxiv.org/abs/2601.22026
+
+Citation:
+```
+@misc{kleinbeck_hybrid_2026,
+	title = {Hybrid Foveated Path Tracing with Peripheral Gaussians for Immersive Anatomy},
+	url = {http://arxiv.org/abs/2601.22026},
+	doi = {10.48550/arXiv.2601.22026},
+	number = {{arXiv}:2601.22026},
+	publisher = {{arXiv}},
+	author = {Kleinbeck, Constantin and Theelke, Luisa and Schieber, Hannah and Eck, Ulrich and Eisenhart-Rothe, Rüdiger von and Roth, Daniel},
+	date = {2026-01-29},
+	langid = {english},
+	eprinttype = {arxiv},
+	eprint = {2601.22026 [cs]},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Graphics},
+}
+```
+
+## Abstract
 
 Volumetric medical imaging offers great potential for understanding complex pathologies. Yet, traditional 2D slices provide little support for interpreting spatial relationships, forcing users to mentally reconstruct anatomy into three dimensions. Direct volumetric path tracing and VR rendering can improve perception but are computationally expensive, while precomputed representations, like Gaussian Splatting, require planning ahead. Both approaches limit interactive use.
 
