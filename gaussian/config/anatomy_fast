@@ -1,0 +1,5 @@
+Namespace(iterations=700, imp_metric='indoor', warn_until_iter=0, depth_reinit_iter=99999, 
+          densify_from_iter=99999, densification_interval=25, densify_until_iter=9000, aggressive_clone_from_iter=70, aggressive_clone_interval=70,  
+          simp_iteration1=95, simp_iteration2=99999, random_background=True,  
+          position_lr_max_steps=700, scaling_lr=0.007, rotation_lr=0.002, opacity_lr=0.05)
+

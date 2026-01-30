@@ -1,0 +1,7 @@
+tqdm
+plyfile
+open3d
+submodules/diff-gaussian-rasterization
+submodules/diff-gaussian-rasterization_ms
+submodules/simple-knn
+submodules/fused-ssim

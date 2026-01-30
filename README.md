@@ -7,7 +7,7 @@ There are three main components to this project:
 - A Gaussian Splatting training component to optimize peripheral models
 - A Unity viewer project
 
-__IMPORTANT:__ This repository is for reference, and not in a state that can be easily run. The components in the subfolders ship with adapted code, and mostly their original readme, which can be somewhat misleading and misrepresent what the code does. You will need to check out what each part does and adapt to your needs. 
+__IMPORTANT:__ *This repository is for reference*. It is not in a state that can be easily run. The components in the subfolders ship with adapted code, and mostly their original readme, which can be somewhat misleading and misrepresent what the code does. You will need to check out what each part does and adapt to your needs. 
 
 ## Paper abstract
 
@@ -20,8 +20,6 @@ We compare our method against direct path tracing and Gaussian Splatting. Our re
 
 ## Components
 
-__Components are still to do, final structure will be:__
-
 ### Path tracer
 
 The path tracer is available in the `pathtracing` subfolder. The path tracer is based on https://github.com/nihofm/volren
@@ -32,8 +30,12 @@ Code to generate images and run the server is in the scipts subfolder. Note that
 
 The gaussian splatting code is available in the `gaussian` subfolder. It is based on MiniSplatting2, whcih can be found here https://github.com/fatPeter/mini-splatting2
 
+The code uses the depth patch from https://github.com/roth-hex-lab/Multi-Layer-Anatomy-GS-Training useful for training on highly semi-transparent data.
+
 ### Unity Viewer
 
 The unity viewer is available in the `unity` subfolder. It is adapted from the Unity Gaussian Splatting project, which can be found here: https://github.com/aras-p/UnityGaussianSplatting/
+
+This project has trained gaussian models and can receive realtime frames to display on top. Note that we can not include the matching volumes, but you can view the trained peripheral models on their own here, or create your own.
 
 Normal Unity conventions apply.
